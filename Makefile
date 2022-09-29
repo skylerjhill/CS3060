@@ -1,8 +1,8 @@
 CC = gcc
-CFLAGS = -g -Werror - Wall -o assn1 assn1.c
+CFLAGS = -g -Werror -Wall
 
 assn1: Makefile
-	$(CC) $(CFLAGS)
+	$(CC) $(CFLAGS) assn1.c -o assn1
 
 clean:
 	rm -f assn1
